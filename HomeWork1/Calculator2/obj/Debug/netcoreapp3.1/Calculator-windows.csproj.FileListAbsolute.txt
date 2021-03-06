@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator2\bin\Debug\netcoreapp3.1\Calculator-windows.exe
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator2\bin\Debug\netcoreapp3.1\Calculator-windows.deps.json
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator2\bin\Debug\netcoreapp3.1\Calculator-windows.runtimeconfig.json
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator2\bin\Debug\netcoreapp3.1\Calculator-windows.runtimeconfig.dev.json
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator2\bin\Debug\netcoreapp3.1\Calculator-windows.dll
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator2\bin\Debug\netcoreapp3.1\Calculator-windows.pdb
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator2\obj\Debug\netcoreapp3.1\Calculator-windows.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator2\obj\Debug\netcoreapp3.1\Calculator2.Form1.resources
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator2\obj\Debug\netcoreapp3.1\Calculator-windows.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator2\obj\Debug\netcoreapp3.1\Calculator-windows.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator2\obj\Debug\netcoreapp3.1\Calculator-windows.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator2\obj\Debug\netcoreapp3.1\Calculator-windows.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator2\obj\Debug\netcoreapp3.1\Calculator-windows.dll
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator2\obj\Debug\netcoreapp3.1\Calculator-windows.pdb
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator2\obj\Debug\netcoreapp3.1\Calculator-windows.genruntimeconfig.cache

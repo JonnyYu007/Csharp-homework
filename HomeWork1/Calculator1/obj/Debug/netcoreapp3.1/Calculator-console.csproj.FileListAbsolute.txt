@@ -1,0 +1,13 @@
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator1\bin\Debug\netcoreapp3.1\Calculator-console.exe
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator1\bin\Debug\netcoreapp3.1\Calculator-console.deps.json
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator1\bin\Debug\netcoreapp3.1\Calculator-console.runtimeconfig.json
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator1\bin\Debug\netcoreapp3.1\Calculator-console.runtimeconfig.dev.json
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator1\bin\Debug\netcoreapp3.1\Calculator-console.dll
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator1\bin\Debug\netcoreapp3.1\Calculator-console.pdb
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator1\obj\Debug\netcoreapp3.1\Calculator-console.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator1\obj\Debug\netcoreapp3.1\Calculator-console.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator1\obj\Debug\netcoreapp3.1\Calculator-console.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator1\obj\Debug\netcoreapp3.1\Calculator-console.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator1\obj\Debug\netcoreapp3.1\Calculator-console.dll
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator1\obj\Debug\netcoreapp3.1\Calculator-console.pdb
+C:\Users\Lenovo\Desktop\HomeWork1\Calculator1\obj\Debug\netcoreapp3.1\Calculator-console.genruntimeconfig.cache
