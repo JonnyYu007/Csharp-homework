@@ -1,0 +1,13 @@
+C:\Users\Lenovo\Desktop\test_of_class\test_of_class\bin\Debug\netcoreapp3.1\test_of_class.exe
+C:\Users\Lenovo\Desktop\test_of_class\test_of_class\bin\Debug\netcoreapp3.1\test_of_class.deps.json
+C:\Users\Lenovo\Desktop\test_of_class\test_of_class\bin\Debug\netcoreapp3.1\test_of_class.runtimeconfig.json
+C:\Users\Lenovo\Desktop\test_of_class\test_of_class\bin\Debug\netcoreapp3.1\test_of_class.runtimeconfig.dev.json
+C:\Users\Lenovo\Desktop\test_of_class\test_of_class\bin\Debug\netcoreapp3.1\test_of_class.dll
+C:\Users\Lenovo\Desktop\test_of_class\test_of_class\bin\Debug\netcoreapp3.1\test_of_class.pdb
+C:\Users\Lenovo\Desktop\test_of_class\test_of_class\obj\Debug\netcoreapp3.1\test_of_class.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\test_of_class\test_of_class\obj\Debug\netcoreapp3.1\test_of_class.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\test_of_class\test_of_class\obj\Debug\netcoreapp3.1\test_of_class.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\test_of_class\test_of_class\obj\Debug\netcoreapp3.1\test_of_class.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\test_of_class\test_of_class\obj\Debug\netcoreapp3.1\test_of_class.dll
+C:\Users\Lenovo\Desktop\test_of_class\test_of_class\obj\Debug\netcoreapp3.1\test_of_class.pdb
+C:\Users\Lenovo\Desktop\test_of_class\test_of_class\obj\Debug\netcoreapp3.1\test_of_class.genruntimeconfig.cache
