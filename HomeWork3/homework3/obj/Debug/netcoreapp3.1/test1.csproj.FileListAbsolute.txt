@@ -1,0 +1,4 @@
+C:\Users\Lenovo\Desktop\homework3\homework3\obj\Debug\netcoreapp3.1\test1.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\homework3\homework3\obj\Debug\netcoreapp3.1\test1.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\homework3\homework3\obj\Debug\netcoreapp3.1\test1.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\homework3\homework3\obj\Debug\netcoreapp3.1\test1.csproj.CoreCompileInputs.cache
