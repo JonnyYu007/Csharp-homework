@@ -6,7 +6,7 @@ namespace test1
 {
     class Factory
     {
-        public static void SelectShape()
+        public static double SelectShape()
         {
             Random r = new Random();
             int number = r.Next(1, 3);
@@ -26,6 +26,7 @@ namespace test1
                         }
                         return rec.CalArea();
                     }
+                    break;
                 case 2:
                     {
                         Shape sq = new Sqare(r1);
@@ -37,6 +38,7 @@ namespace test1
                         }
                         return sq.CalArea();
                     }
+                    break;
                 case 3:
                     {
                         Shape tri = new Triangle(r1, r2,r3);
@@ -49,6 +51,9 @@ namespace test1
                         }
                         return tri.CalArea();
                     }
+                    break;
+                default:
+                    return 0;
             }
 
         }

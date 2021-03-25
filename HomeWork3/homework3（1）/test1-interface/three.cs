@@ -18,12 +18,13 @@ namespace homework3
             this.length = a;
             this.width = b;
         }
-        public double CalArea(double length,double width)
+        public  double CalArea(double length,double width)
         {
             return length * width;
         }
         public bool IsLegal(double length,double width)
         {
+           
             return length > 0 && width > 0;
         }
     }

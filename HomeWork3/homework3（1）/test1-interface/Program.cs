@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using test1
+using test1;
 namespace homerwork3
 {
     
