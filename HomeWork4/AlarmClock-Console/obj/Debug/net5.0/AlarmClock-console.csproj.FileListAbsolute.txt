@@ -1,0 +1,16 @@
+C:\Users\Lenovo\Desktop\homework\HomeWork4\Alarm\bin\Debug\net5.0\AlarmClock-console.exe
+C:\Users\Lenovo\Desktop\homework\HomeWork4\Alarm\bin\Debug\net5.0\AlarmClock-console.deps.json
+C:\Users\Lenovo\Desktop\homework\HomeWork4\Alarm\bin\Debug\net5.0\AlarmClock-console.runtimeconfig.json
+C:\Users\Lenovo\Desktop\homework\HomeWork4\Alarm\bin\Debug\net5.0\AlarmClock-console.runtimeconfig.dev.json
+C:\Users\Lenovo\Desktop\homework\HomeWork4\Alarm\bin\Debug\net5.0\AlarmClock-console.dll
+C:\Users\Lenovo\Desktop\homework\HomeWork4\Alarm\bin\Debug\net5.0\ref\AlarmClock-console.dll
+C:\Users\Lenovo\Desktop\homework\HomeWork4\Alarm\bin\Debug\net5.0\AlarmClock-console.pdb
+C:\Users\Lenovo\Desktop\homework\HomeWork4\Alarm\obj\Debug\net5.0\AlarmClock-console.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\homework\HomeWork4\Alarm\obj\Debug\net5.0\AlarmClock-console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\homework\HomeWork4\Alarm\obj\Debug\net5.0\AlarmClock-console.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\homework\HomeWork4\Alarm\obj\Debug\net5.0\AlarmClock-console.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\homework\HomeWork4\Alarm\obj\Debug\net5.0\AlarmClock-console.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\homework\HomeWork4\Alarm\obj\Debug\net5.0\AlarmClock-console.dll
+C:\Users\Lenovo\Desktop\homework\HomeWork4\Alarm\obj\Debug\net5.0\ref\AlarmClock-console.dll
+C:\Users\Lenovo\Desktop\homework\HomeWork4\Alarm\obj\Debug\net5.0\AlarmClock-console.pdb
+C:\Users\Lenovo\Desktop\homework\HomeWork4\Alarm\obj\Debug\net5.0\AlarmClock-console.genruntimeconfig.cache
