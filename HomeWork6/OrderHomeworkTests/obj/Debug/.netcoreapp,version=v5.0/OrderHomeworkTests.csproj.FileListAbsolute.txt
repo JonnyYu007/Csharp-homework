@@ -1,0 +1,5 @@
+C:\Users\Lenovo\Desktop\homework\HomeWork5\OrderHomeworkTests\obj\Debug\.netcoreapp,version=v5.0\OrderHomeworkTests.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\homework\HomeWork5\OrderHomeworkTests\obj\Debug\.netcoreapp,version=v5.0\OrderHomeworkTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\homework\HomeWork5\OrderHomeworkTests\obj\Debug\.netcoreapp,version=v5.0\OrderHomeworkTests.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\homework\HomeWork5\OrderHomeworkTests\obj\Debug\.netcoreapp,version=v5.0\OrderHomeworkTests.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\homework\HomeWork5\OrderHomeworkTests\obj\Debug\.netcoreapp,version=v5.0\OrderHomeworkTests.csproj.CoreCompileInputs.cache
