@@ -13,73 +13,38 @@ namespace HomeWork9
 {
     public class Crawler
     {
-        /**
-       * 解析网站的内容
-       */
-        public static readonly string urlParseRegex = @"^(?<url>https?://(?<host>(www.)?[-a-zA-Z0-9@:%._+~#=]{1,256}.[a-zA-Z0-9()]{1,6})/?)(.*/)*(?<page>(.*(.html|.jsp|.aspx))?)$";
-        /**
-         * 检测href中的url的正则表达式
-         */
-        public static readonly string urlDetectRegex = @"<a.+?(href|HREF)=[""'](?<url>[^""'#>]+)[""'].*>";
-        /**
-         * 两个爬虫事件
-         */
-        public event Action<Crawler> SpiderStopped;
-        public event Action<Crawler, string, string> CurPageDownloaded;
-
-        /**
-         * url下载等待队列
-         */
-        private Queue<string> waiting = new Queue<string>();
-        public string PageFilter { get; set; }
-        public string HostFilter { get; set; }
-        /**
-         * 最大爬取页数
-         */
-        public int MaxPage { get; set; }
-        /**
-         * 开始网页
-         */
-        public string StartURL { get; set; }
-        /**
-         * 网页编码
-         */
-        public Encoding Encoding { get; set; }
-        public Dictionary<string, bool> Urls { get; set; }
         public Crawler()
         {
             MaxPage = 50;
             Encoding = Encoding.UTF8;
         }
-        public void Crawl()
-        {
-            Urls = new Dictionary<string, bool>();
-            waiting.Clear();
-            waiting.Enqueue(StartURL);
-            while (Urls.Count < MaxPage && waiting.Count > 0)
-            {
-                string current = waiting.Dequeue();
-                try
-                {
-                    string html = DownLoad(current);
-                    Urls[current] = true;
-                    //解析
-                    Parse(html, current);
-                    //触发当前页下载成功事件
-                    CurPageDownloaded(this, current, "SUCCESS：爬取成功");
-                }
-                catch (Exception e)
-                {
-                    //触发当前页下载失败事件
-                    CurPageDownloaded(this, current, "ERROR：" + e.Message);
-                }
-            }
-            //触发爬虫完成事件
-            SpiderStopped(this);
-        }
-        /**
-         * 下载html
-         */
+
+        //两个爬虫事件
+        public event Action<Crawler> SpiderStopped;
+        public event Action<Crawler, string, string> CurPageDownloaded;
+
+        //url等待下载队列
+        private Queue<string> waiting = new Queue<string>();
+        public string FileFilter { get; set; }
+        public string HostFilter { get; set; }
+
+        //最大爬取页数
+        public int MaxPage { get; set; }
+
+        //开始网页
+        public string StartURL { get; set; }
+
+        //编码
+        public Encoding Encoding { get; set; }
+        public Dictionary<string, bool> Urls { get; set; }
+
+       //检测href中的正则表达式
+        public static readonly string urlDetectRegex = @"<a.+?(href|HREF)=[""'](?<url>[^""'#>]+)[""'].*>";
+
+        //解析网站的内容
+        public static readonly string urlParseRegex = @"^(?<url>https?://(?<host>(www.)?[-a-zA-Z0-9@:%._+~#=]{1,256}.[a-zA-Z0-9()]{1,6})/?)(.*/)*(?<page>(.*(.html|.jsp|.aspx))?)$";
+
+        //下载html
         public string DownLoad(string url)
         {
             try
@@ -106,11 +71,11 @@ namespace HomeWork9
                 {
                     fileName = Convert.ToInt64(ts.TotalSeconds).ToString() + rd.Next(10, 99).ToString();
                 }
-                if (!Directory.Exists("D://spiderData"))
+                if (!Directory.Exists("D://CrawlerData"))
                 {
-                    Directory.CreateDirectory("D://spiderData");
+                    Directory.CreateDirectory("D://CrawlerData");
                 }
-                File.WriteAllText("D://spiderData//" + fileName, html, Encoding.UTF8);
+                File.WriteAllText("D://CrawlerData//" + fileName, html, Encoding.UTF8);
                 return html;
             }
             catch (Exception e)
@@ -118,9 +83,8 @@ namespace HomeWork9
                 throw e;
             }
         }
-        /**
-         * 解析html
-         */
+
+        //解析
         private void Parse(string html, string pageUrl)
         {
             //获取html中的url集合
@@ -143,18 +107,16 @@ namespace HomeWork9
                     page = "index.html";
                 }
                 //过滤重复页面 过滤非html/aspx/jsp网页
-                if (Regex.IsMatch(host, HostFilter) && Regex.IsMatch(page, PageFilter) && !Urls.ContainsKey(linkUrl))
+                if (Regex.IsMatch(host, HostFilter) && Regex.IsMatch(page, FileFilter) && !Urls.ContainsKey(linkUrl))
                 {
                     //将转换后的url加入等待队列
                     waiting.Enqueue(linkUrl);
-                    //将转换后的url加入字典   并设为false未爬取
+                    //将转换后的url加入字典
                     Urls.Add(linkUrl, false);
                 }
             }
         }
-        /**
-         * 将相对路径转为绝对路径
-         */
+        //相对路径转绝对路径
         static private string ConvertUrl(string url, string baseUrl)
         {
             //绝对路径
@@ -182,6 +144,32 @@ namespace HomeWork9
             }
             int end = baseUrl.LastIndexOf("/");
             return baseUrl.Substring(0, end) + "/" + url;
+        }
+
+        public void Crawl()
+        {
+            Urls = new Dictionary<string, bool>();
+            waiting.Clear();
+            waiting.Enqueue(StartURL);
+            while (Urls.Count < MaxPage && waiting.Count > 0)
+            {
+                string current = waiting.Dequeue();
+                try
+                {
+                    string html = DownLoad(current);
+                    Urls[current] = true;
+                    //解析
+                    Parse(html, current);
+                    //触发当前页下载成功事件
+                    CurPageDownloaded(this, current, "爬取成功");
+                }
+                catch (Exception e)
+                {
+                    CurPageDownloaded(this, current,e.Message);
+                }
+            }
+            SpiderStopped(this);//触发爬虫完成事件
+
         }
     }
 }

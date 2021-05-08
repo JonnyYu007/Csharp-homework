@@ -64,10 +64,10 @@ namespace HomeWork9
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(83, 135);
+            this.textBox2.Location = new System.Drawing.Point(-8, 91);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(651, 253);
+            this.textBox2.Size = new System.Drawing.Size(816, 372);
             this.textBox2.TabIndex = 3;
             // 
             // Form1

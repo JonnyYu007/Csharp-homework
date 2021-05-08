@@ -13,13 +13,13 @@ namespace HomeWork9
 {
     public partial class Form1 : Form
     {
-        Crawler spider = new Crawler();
         public Form1()
         {
             InitializeComponent();
             spider.SpiderStopped += this.SpiderStopped;
             spider.CurPageDownloaded += this.CurPageDownloaded;
         }
+        Crawler spider = new Crawler();
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -35,19 +35,15 @@ namespace HomeWork9
             }
             string host = match.Groups["host"].Value;
             spider.HostFilter = "^" + host + "$";
-            spider.PageFilter = ".*(.html|.jsp|.aspx)?$";
+            spider.FileFilter = ".*(.html|.jsp|.aspx)?$";
             spider.Crawl();
         }
-        /**
-         * 爬虫停止事件处理
-         */
+      
         private void SpiderStopped(Crawler spider)
         {
             this.textBox2.AppendText("爬虫已停止...." + "\r\n");
         }
-        /**
-         * 当前页下载事件处理
-         */
+       
         private void CurPageDownloaded(Crawler spider, string url, string info)
         {
             string pageInfo = $"[网页={url}, 爬取状态={info}]";
