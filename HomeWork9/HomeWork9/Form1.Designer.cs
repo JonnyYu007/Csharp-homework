@@ -60,7 +60,7 @@ namespace HomeWork9
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(241, 27);
             this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "https://www.cnblogs.com/GeorgePigX/";
+            this.textBox1.Text = "https://www.cnblogs.com";
             // 
             // textBox2
             // 
