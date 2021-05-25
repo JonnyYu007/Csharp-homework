@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sean.Core.SnowFlake</name>
+    </assembly>
+    <members>
+        <member name="P:Sean.Core.SnowFlake.Contracts.IIdManager.DatacenterId">
+            <summary>
+            数据中心ID(0~31)
+            </summary>
+        </member>
+        <member name="P:Sean.Core.SnowFlake.Contracts.IIdManager.WorkerId">
+            <summary>
+            工作机器ID(0~31)
+            </summary>
+        </member>
+        <member name="M:Sean.Core.SnowFlake.Contracts.IIdManager.NextId">
+            <summary>
+            获得下一个ID (线程安全) 
+            </summary>
+            <returns>全局唯一的id</returns>
+        </member>
+        <member name="P:Sean.Core.SnowFlake.IdManager.DatacenterId">
+            <summary>
+            数据中心ID(0~31)
+            </summary>
+        </member>
+        <member name="P:Sean.Core.SnowFlake.IdManager.WorkerId">
+            <summary>
+            工作机器ID(0~31)
+            </summary>
+        </member>
+        <member name="P:Sean.Core.SnowFlake.IdManager.IsConfigInitialized">
+            <summary>
+            是否初始化过配置
+            </summary>
+        </member>
+        <member name="M:Sean.Core.SnowFlake.IdManager.NextId">
+            <summary>
+            获得下一个ID (线程安全) 
+            </summary>
+            <returns>全局唯一的id</returns>
+        </member>
+        <member name="M:Sean.Core.SnowFlake.IdWorker.#ctor(System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="datacenterId">数据中心ID(0~31)</param>
+            <param name="workerId">工作机器ID(0~31)</param>
+        </member>
+        <member name="M:Sean.Core.SnowFlake.IdWorker.NextId">
+            <summary>
+            获得下一个ID (线程安全) 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sean.Core.SnowFlake.IdWorker.GetNextTimestamp">
+            <summary>
+            获取下一个时间戳
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sean.Core.SnowFlake.IdWorker.GetCurTimestamp">
+            <summary>
+            生成当前时间戳（毫秒）
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
